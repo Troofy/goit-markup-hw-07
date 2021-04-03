@@ -1,9 +1,5 @@
 .header {
   border-bottom: 1px solid var(--border-color-header);
-& .container {
-  display: flex;
-  align-items: center;
-}
 &__navigation {
   display: flex;
   align-items: center;
