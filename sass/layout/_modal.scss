@@ -1,3 +1,4 @@
+
 .modal {
   position: absolute;
   top: 50%;
@@ -10,12 +11,7 @@
   border-radius: 4px;
   padding: 40px;
 }
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transform: scale(0);
-}
+
 
 .modal-title {
   font-family: var(--main-font);
