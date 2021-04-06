@@ -449,6 +449,7 @@ body {
   color: var(--secondary-font-color);
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
+  opacity: 0;
   transition: transform var(--main-animation);
   overflow: auto;
 }
@@ -456,6 +457,7 @@ body {
 .projects-card:hover .projects-overlay,
 .projects-card:focus .projects-overlay {
   transform: translateY(0%);
+  opacity: 1;
 }
 
 .backdrop {
