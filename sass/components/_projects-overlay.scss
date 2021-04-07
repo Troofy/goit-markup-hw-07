@@ -18,11 +18,12 @@
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   opacity: 0;
-  transition: transform var(--main-animation);
+  transition: transform var(--main-animation), opacity var(--main-animation);
   overflow: auto;
   .projects-card:hover &,
   .projects-card:focus & {
     transform: translateY(0%);
     opacity: 1;
+    
   }
 }
